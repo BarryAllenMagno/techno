@@ -1,0 +1,124 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #2b2c30;
+    font-size: 30px;
+    padding: 14px 16px;
+  }
+
+li {
+    float: left;
+  }
+
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #111;
+  }
+
+.title {
+    margin-top: 5px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    text-align: center;
+    font-stretch: expanded;
+    font-weight: 600;
+  }
+
+.about {
+    text-align: center;
+  }
+  
+p {
+    text-align: center;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+  }
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+
+.mission {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vision {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.one {
+    height: 100vh;
+}
+
+.two {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.three {
+    height: 30vh;
+    text-align: center;
+    background-color: #2b2c30;
+    color: white;
+}
+
+.four {
+    height: 70vh;
+}
+
+.five {
+    height: 70vh;
+    background-image: url("white-bg-1.jpg");
+}
+
+.six {
+    background-color: #2b2c30;
+    height: 30vh;
+    color: white;
+    text-align: center;
+}
+
+.fadeIn {
+    opacity:0;
+}
+
+body {
+    background-image: url("one-bg-1.jpg");
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn {
+    transition: transform 250ms;
+  }
+  
+  .btn:hover {
+    transform: translateY(-10px);
+  }
+
+ .card-header {
+    text-align: center;
+  }
+
+  span {
+    transition: transform 250ms;
+  }
+
+  span:hover {
+    transform: translateY(-15px);
+  }
